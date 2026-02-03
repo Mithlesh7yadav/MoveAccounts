@@ -1,0 +1,30 @@
+{
+  "name": "move-accounts-loader",
+  "version": "1.0.0",
+  "description": "Script to load account data from CSV to PostgreSQL database",
+  "main": "load_accounts_to_database.js",
+  "scripts": {
+    "start": "node load_accounts_to_database.js",
+    "load": "node load_accounts_to_database.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "csv",
+    "postgresql",
+    "database",
+    "migration",
+    "data-loading"
+  ],
+  "author": "",
+  "license": "ISC"
+}
